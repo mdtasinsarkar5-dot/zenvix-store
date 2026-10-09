@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Admin Panel — ZENVIX</title><link rel="stylesheet" href="style.css"></head>
+<body class="admin-body"><header class="admin-header"><div class="container nav"><a class="brand light" href="index.html"><span class="tl-logo">Z</span><span>ZENVIX <b>Store</b><small>ADMIN PANEL</small></span></a><a href="index.html" class="btn light-btn">Storefront ↗</a></div></header>
+<main class="container admin-page"><div class="admin-top"><div><small>STORE MANAGEMENT</small><h1>Admin dashboard</h1></div></div>
+<div id="dashboardCards" class="dash-cards"></div>
+<div class="admin-tabs"><button class="active" data-tab="overview">Overview</button><button data-tab="products">Products</button><button data-tab="orders">Orders</button><button data-tab="delivery">Delivery Settings</button></div>
+<section id="tab-overview" class="admin-tab"></section>
+<section id="tab-products" class="admin-tab hidden"></section>
+<section id="tab-orders" class="admin-tab hidden"></section>
+<section id="tab-delivery" class="admin-tab hidden"></section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="app.js"></script>
+<script>initAdmin();</script>
+
+</body>
+</html>
