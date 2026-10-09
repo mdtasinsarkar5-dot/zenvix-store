@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ZENVIX — Premium Tech Store</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="top-strip">🚚 Nationwide delivery • Cash on Delivery • Easy order tracking</div>
+<header class="header"><div class="container nav">
+<a class="brand" href="index.html"><span class="tl-logo">Z</span><span>ZENVIX <b>Store</b><small>TECH • GAMING • ACCESSORIES</small></span></a>
+<div class="search"><input id="homeSearch" placeholder="Search for products, brands & categories"><button onclick="homeSearch()">⌕</button></div>
+<div class="nav-actions"><a href="cart.html" class="cart">🛒 <b id="cartCount">0</b></a></div>
+</div>
+<div class="container category-nav"><a href="products.html">All Products</a><a href="products.html?cat=Power Bank">Power Bank</a><a href="products.html?cat=Headphones">Headphones</a><a href="products.html?cat=Gaming">Gaming</a><a href="products.html?cat=Speakers">Speakers</a><a href="products.html?cat=Keyboard">Keyboard & Mouse</a><a href="products.html?cat=Chargers">Chargers & Cables</a></div>
+</header>
+
+<main>
+<section class="hero"><div class="container hero-grid">
+<div><span class="pill">NEW • ZENVIX</span><h1>Tech that fits your <em>life & game.</em></h1><p>Premium electronics, gaming gear and everyday accessories — with Bangladesh-friendly prices and convenient delivery.</p><div class="hero-buttons"><a class="btn orange" href="products.html">Shop now</a><a class="btn ghost" href="#deals">Today's deals</a></div><div class="hero-points"><span>✓ COD</span><span>✓ Secure checkout</span><span>✓ Order tracking</span></div></div>
+<div class="hero-showcase"><div class="floating-tag">UP TO <b>25% OFF</b></div><div class="device-stack"><div class="device-card big">🔋<b>POWER</b><small>30,000mAh</small></div><div class="device-card">🎧<b>AUDIO</b><small>ANC Headphones</small></div><div class="device-card">🎮<b>GAMING</b><small>Gear up</small></div></div></div>
+</div></section>
+
+<section class="container section"><div class="section-title"><div><small>SHOP SMART</small><h2>Popular categories</h2></div><a href="products.html">View all →</a></div>
+<div class="category-cards">
+<a href="products.html?cat=Power Bank"><i>🔋</i><b>Power Bank</b><span>Fast charging</span></a>
+<a href="products.html?cat=Headphones"><i>🎧</i><b>Audio</b><span>Headphones & earbuds</span></a>
+<a href="products.html?cat=Gaming"><i>🎮</i><b>Gaming</b><span>Mouse, keyboard & more</span></a>
+<a href="products.html?cat=Speakers"><i>🔊</i><b>Speakers</b><span>Wireless sound</span></a>
+<a href="products.html?cat=Chargers"><i>🔌</i><b>Charging</b><span>Cables & adapters</span></a>
+</div></section>
+
+<section id="deals" class="section deals"><div class="container"><div class="section-title"><div><small>LIMITED OFFERS</small><h2>Deals of the day</h2></div><a href="products.html">Shop all →</a></div><div id="featuredGrid" class="product-grid"></div></div></section>
+
+<section class="container section trust"><div class="trust-item"><b>🚚 Nationwide Delivery</b><span>Deliver across Bangladesh</span></div><div class="trust-item"><b>💵 Cash on Delivery</b><span>Pay when your order arrives</span></div><div class="trust-item"><b>🛡️ Easy Support</b><span>Order & product assistance</span></div><div class="trust-item"><b>⚡ Fast Response</b><span>Quick order confirmation</span></div></section>
+</main>
+
+<footer><div class="container footer-grid"><div><a class="brand light" href="index.html"><span class="tl-logo">Z</span><span>ZENVIX <b>Store</b><small>TECH • GAMING • ACCESSORIES</small></span></a><p>Your new destination for electronics, accessories and gaming gear.</p></div><div><h4>Shop</h4><a href="products.html">All Products</a><a href="products.html?cat=Gaming">Gaming</a><a href="products.html?cat=Headphones">Audio</a></div><div><h4>Customer Care</h4><a href="cart.html">Cart</a><a href="checkout.html">Checkout</a><a href="#">Return policy</a></div><div><h4>Contact</h4><span>Phone: +880 1XXXXXXXXX</span><span>Online electronics store • Bangladesh</span><span>Bangladesh</span></div></div><div class="copyright">© 2026 ZENVIX. Version 2 demo store.</div></footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="app.js"></script>
+<script>renderFeatured();</script>
+</body></html>
